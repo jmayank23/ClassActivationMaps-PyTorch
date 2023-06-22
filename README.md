@@ -69,7 +69,7 @@ model = torchvision.models.resnet50(pretrained='imagenet').double()
 target_layers = [model.layer4[-1]]
 ```
 
-Replace `resnet50` with your desired model architecture, and modify `target_layers` based on the layers you want to visualize.
+Replace your own model here, and modify `target_layers` based on the layer(s) you want to visualize.
 
 6. Create CAM objects for each method:
 
@@ -78,8 +78,6 @@ cams = {}
 for cam_name, cam_method in cam_methods.items():
     cams[cam_name] = cam_method(model=model, target_layers=target_layers, use_cuda=torch.cuda.is_available())
 ```
-
-Ensure that the `use_cuda` flag is set to `True` if you have CUDA-enabled GPU(s) available.
 
 7. Specify the targets (optional):
 
