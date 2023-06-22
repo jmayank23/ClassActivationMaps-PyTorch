@@ -1,6 +1,8 @@
 # Class Activation Maps in PyTorch
 
-This code provides an easy-to-use implementation for generating state-of-the-art Class Activation Maps (CAMs) using the `pytorch-grad-cam` library. CAMs are useful visualizations that highlight the regions of an image that contribute most to the prediction of a specific class by a convolutional neural network (CNN).
+![cam](https://github.com/jmayank23/ClassActivationMaps_PyTorch/assets/27727185/fbdfa22e-47dc-4c61-9c8d-960eab76f028)
+
+This code provides an easy-to-use implementation for generating state-of-the-art Class Activation Maps (CAMs.) While the CAM generation is handled by another library, this code highlights the sequence of steps and provides an easy way to visualize multiple CAMs without having to deal with any intricacies of plotting functions. CAMs are useful visualizations that highlight the regions of an image that contribute most to the prediction of a specific class by a convolutional neural network (CNN).
 
 ## Installation
 
