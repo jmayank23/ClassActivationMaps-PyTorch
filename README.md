@@ -126,5 +126,3 @@ This code utilizes the `pytorch-grad-cam` library developed by [Jacob Gil](https
 ## License
 
 The code is provided under the [MIT License](https://opensource.org/licenses/MIT). Feel free to modify and use it according to your needs.
-
-Please note that this readme assumes some familiarity with deep learning concepts and Python programming. If you have any further questions or issues, don't hesitate to consult the library's documentation or seek additional support.
